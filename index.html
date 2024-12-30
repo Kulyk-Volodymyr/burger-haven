@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="./favicon.ico" />
+    <title>Burger Haven</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&family=Oswald:wght@700&family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="header__inner">
+        <div class="header__logo">
+          <img src="./images/logo.png" alt="logo" />
+          <p class="gradientText">Burger Haven</p>
+        </div>
+
+        <div class="header__items">
+          <nav aria-label="Main navigation">
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#menu">Menu</a></li>
+              <li><a href="#contact">Contact Us</a></li>
+            </ul>
+          </nav>
+
+          <button class="header__orderButton">Order Now</button>
+        </div>
+
+        <button
+          id="burger-button"
+          class="burgerButton"
+          aria-label="Toggle navigation menu"
+        >
+          <span class="burgerButton__bar burgerButton__bar_1"></span>
+          <span class="burgerButton__bar burgerButton__bar_2"></span>
+          <span class="burgerButton__bar burgerButton__bar_3"></span>
+          <span class="burgerButton__bar burgerButton__bar_4"></span>
+        </button>
+      </div>
+    </header>
+    <main>
+      <div class="burger">
+        <div id="burger-top">
+          <img src="./images/Group01.png" alt="burger top part" />
+        </div>
+        <div id="burger-bottom">
+          <img src="./images/Group02.png" alt="burger bottom part" />
+        </div>
+      </div>
+
+      <section id="home">
+        <div class="section__inner">
+          <h1>
+            <span id="home-title-left">Welcome to</span>
+            <span id="home-title-right" class="gradientText">Burger Haven</span>
+          </h1>
+        </div>
+      </section>
+
+      <section id="about">
+        <div class="section__inner">
+          <div id="about-content">
+            <h2 class="gradientText">About Us</h2>
+            <p>
+              At Burger Haven, we're passionate about crafting the perfect
+              burger experience for our customers. Our journey began with a
+              simple idea: to create burgers that are not just delicious but
+              also made with the freshest ingredients and cooked to perfection.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="menu">
+        <div class="section__inner">
+          <div id="menu-content-wrapper">
+            <div id="menu-content">
+              <h2 class="gradientText">Menu</h2>
+              <ol>
+                <li>
+                  <span>BBQ Bacon Burger:</span> Beef patty topped with crispy
+                  bacon, BBQ sauce, cheddar cheese, lettuce, and onion rings.
+                </li>
+                <li>
+                  <span>Spicy Jalapeño Burger:</span> Angus beef patty with
+                  spicy jalapeños, pepper jack cheese, chipotle mayo, lettuce,
+                  and tomato.
+                </li>
+                <li>
+                  <span>Hawaiian Teriyaki Burger:</span> Grilled chicken breast
+                  with teriyaki sauce, grilled pineapple, Swiss cheese, lettuce,
+                  and mayo.
+                </li>
+                <li>
+                  <span>Mediterranean Lamb Burger:</span> Seasoned lamb patty,
+                  feta cheese, cucumber, tomato, red onion, and tzatziki sauce.
+                </li>
+                <li>
+                  <span>Breakfast Burger:</span> Beef patty, fried egg, crispy
+                  hash browns, American cheese, bacon, and ketchup.
+                </li>
+                <li>
+                  <span>Southwest Chipotle Burger:</span> Grilled chicken or
+                  beef patty with chipotle aioli, avocado slices, pepper jack
+                  cheese, lettuce, and tomato.
+                </li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact">
+        <div class="section__inner">
+          <div id="contact-content">
+            <h2 class="gradientText">Contact Us</h2>
+            <div class="contacts">
+              <div class="contacts__item">
+                <img
+                  src="./images/mail.svg"
+                  alt="mail"
+                  class="contacts__mail"
+                />
+                <p>burgerhaven@mail.com</p>
+              </div>
+              <div class="contacts__item">
+                <img
+                  src="./images/call.svg"
+                  alt="call"
+                  class="contacts__call"
+                />
+                <p>+90-123456789</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
